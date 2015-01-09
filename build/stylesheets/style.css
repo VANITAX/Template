@@ -1,0 +1,1127 @@
+/* line 6, ../../src/sass/style.sass */
+body {
+  font-family: "Microsoft JhengHei", "Noto sans";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #c9c9c9;
+}
+
+/* line 12, ../../src/sass/style.sass */
+.body-wapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  min-width: 1024px;
+  height: 1600px;
+  background-color: #fff;
+}
+/* line 20, ../../src/sass/style.sass */
+.body-wapper .header {
+  position: relative;
+  top: 0;
+  height: 430px;
+  width: 100%;
+  background: url(../images/header-bg.jpg) no-repeat 100% 100%;
+  behavior: url(backgroundsize.min.htc);
+  background-size: cover;
+  overflow: hidden;
+}
+/* line 29, ../../src/sass/style.sass */
+.body-wapper .header .menubar {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  right: -310px;
+  height: 100%;
+  width: 300px;
+  background-color: #eee;
+  opacity: 0.95;
+  box-shadow: 0 15px 40px #333;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+}
+/* line 40, ../../src/sass/style.sass */
+.body-wapper .header .menubar a {
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  padding: 3px 0;
+  line-height: 80px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #535353;
+}
+/* line 54, ../../src/sass/style.sass */
+.body-wapper .header .header-bar {
+  position: absolute;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* line 60, ../../src/sass/style.sass */
+.body-wapper .header .header-bar .menu {
+  z-index: 11;
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  height: 25px;
+  width: 25px;
+  background: url(../images/menu_icon.png) no-repeat;
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* line 72, ../../src/sass/style.sass */
+.body-wapper .header .header-bar .menu #menuTitle {
+  position: absolute;
+  top: 0;
+  line-height: 30px;
+  left: -40px;
+  height: 30px;
+  width: 50px;
+  color: #fff;
+}
+/* line 80, ../../src/sass/style.sass */
+.body-wapper .header .header-bar .logo {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  background: url(../images/fubon-logo.png) no-repeat 50% 50%;
+  behavior: url(backgroundsize.min.htc);
+  height: 50px;
+  width: 150px;
+  background-size: 150px;
+}
+/* line 90, ../../src/sass/style.sass */
+.body-wapper .header .header-bar .logo a {
+  z-index: 1000000000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  color: #000;
+  opacity: 0.01;
+  font-size: 18px;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=01)";
+  filter: alpha(opacity=1);
+  cursor: pointer;
+}
+/* line 103, ../../src/sass/style.sass */
+.body-wapper .header .header-title {
+  position: absolute;
+  height: 200px;
+  width: 700px;
+  bottom: 50px;
+  left: 30px;
+  background: url(../images/pageTitle.png) no-repeat;
+  behavior: url(backgroundsize.min.htc);
+  background-size: 100% auto;
+}
+/* line 113, ../../src/sass/style.sass */
+.body-wapper .header .header-add {
+  position: absolute;
+  height: 350px;
+  width: 400px;
+  bottom: 0px;
+  right: 0px;
+  background: url(../images/head-bgitem.png) no-repeat;
+  behavior: url(backgroundsize.min.htc);
+  background-size: cover;
+}
+/* line 122, ../../src/sass/style.sass */
+.body-wapper .wapper {
+  position: relative;
+  margin: 0 auto;
+  top: 0;
+  height: 1100px;
+  width: 100%;
+  max-width: 1024px;
+  background-color: #fff;
+}
+/* line 131, ../../src/sass/style.sass */
+.body-wapper .wapper .into-paragraph {
+  position: relative;
+  margin: 0 auto;
+  height: 200px;
+  width: 85%;
+}
+/* line 137, ../../src/sass/style.sass */
+.body-wapper .wapper .into-paragraph p.into {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  font-size: 23px;
+  line-height: 35px;
+  color: #4f4f4f;
+}
+/* line 144, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame {
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  width: 85%;
+  min-width: 850px;
+  height: 800px;
+}
+/* line 152, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box {
+  position: absolute;
+  width: 410px;
+  height: 370px;
+  background: url(../images/L_bg.png) no-repeat 0% -200%;
+  behavior: url(backgroundsize.min.htc);
+  background-size: cover;
+}
+/* line 160, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-title-bar {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #2c5184;
+}
+/* line 167, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-title-bar h2 {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-size: 21px;
+  color: #fff;
+}
+/* line 173, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer {
+  z-index: 1;
+  top: -10%;
+  position: absolute;
+  width: 100%;
+  height: 110%;
+}
+/* line 179, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-Lecturer-para {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  line-height: 25px;
+  color: #2c5184;
+}
+/* line 185, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more {
+  position: absolute;
+  bottom: 90px;
+  left: 25px;
+  color: #2c5184;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 193, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: -15px;
+  height: 0;
+  width: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 7px solid #2c5184;
+  transition: 0.2s;
+}
+/* line 204, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:hover {
+  color: #66758f;
+}
+/* line 206, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:hover:after {
+  right: -24px;
+}
+/* line 208, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:before {
+  content: "";
+  position: absolute;
+  top: -180px;
+  left: -20px;
+  height: 210px;
+  width: 250px;
+}
+/* line 216, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name {
+  position: absolute;
+  width: 101%;
+  height: 80px;
+  left: -0.08px;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+/* line 227, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .into-name-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 233, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .brief-title {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  color: #4f4f4f;
+}
+/* line 238, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .job-title {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+/* line 244, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-1 {
+  left: 0px;
+}
+/* line 246, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 {
+  background: url(../images/Lecturer_1.png) no-repeat 105% 18px;
+}
+/* line 248, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 .into-name-1 {
+  background: url(../images/Lecturer_name_1.png) no-repeat 72% 50%;
+  background-size: 50px;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 252, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-2 {
+  right: 0px;
+}
+/* line 254, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 {
+  background: url(../images/Lecturer_2.png) no-repeat 105% 10px;
+}
+/* line 256, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 .into-name-2 {
+  background: url(../images/Lecturer_name_2.png) no-repeat 62% 50%;
+  behavior: url(backgroundsize.min.htc);
+  background-size: 50px;
+}
+/* line 260, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-3 {
+  left: 0px;
+  bottom: 0px;
+}
+/* line 263, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 {
+  background: url(../images/Lecturer_3.png) no-repeat 105% 10px;
+}
+/* line 265, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 .into-name-3 {
+  background: url(../images/Lecturer_name_3.png) no-repeat 68% 55%;
+  background-size: 80px;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 269, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-4 {
+  right: 0px;
+  bottom: 0px;
+}
+/* line 272, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 {
+  background: url(../images/Lecturer_4.png) no-repeat 105% 10px;
+}
+/* line 274, ../../src/sass/style.sass */
+.body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 .into-name-4 {
+  background: url(../images/Lecturer_name_4.png) no-repeat 76% 55%;
+  behavior: url(backgroundsize.min.htc);
+  background-size: 80px;
+}
+/* line 278, ../../src/sass/style.sass */
+.body-wapper .wapper .IC-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 85px;
+  color: #000;
+  cursor: pointer;
+}
+/* line 284, ../../src/sass/style.sass */
+.body-wapper .wapper .IC-icon:after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -32px;
+  height: 25px;
+  width: 28px;
+}
+/* line 292, ../../src/sass/style.sass */
+.body-wapper .wapper .IC-icon span#icText2 {
+  font-size: 11px;
+}
+/* line 294, ../../src/sass/style.sass */
+.body-wapper .wapper .IC-icon img {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: -5px;
+  left: -27px;
+}
+/* line 301, ../../src/sass/style.sass */
+.body-wapper .icinfo {
+  display: none;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  padding-bottom: 30px;
+  height: auto;
+  width: 100%;
+  background: #999 url(../images/footer-bg.png);
+  behavior: url(backgroundsize.min.htc);
+  background-size: cover;
+}
+/* line 312, ../../src/sass/style.sass */
+.body-wapper .icinfo .ic-full-info {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f9f9f9;
+}
+/* line 320, ../../src/sass/style.sass */
+.body-wapper .icinfo .ic-full-info h3 {
+  margin-top: 40px;
+  line-height: 10px;
+}
+/* line 323, ../../src/sass/style.sass */
+.body-wapper .footer {
+  z-index: 100;
+  position: relative;
+  top: -7px;
+  width: 100%;
+  height: 70px;
+  background: url(../images/footer.png) no-repeat 100% 100%;
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 332, ../../src/sass/style.sass */
+.body-wapper .footer:after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 50px;
+  height: 20px;
+  width: 220px;
+  background: url(../images/Reserved-text.png) no-repeat;
+}
+/* line 340, ../../src/sass/style.sass */
+.body-wapper .footer .footer-icon {
+  position: absolute;
+  left: 25px;
+  top: 30%;
+  height: 20px;
+  width: 75px;
+  background: url(../images/fubon-logo.png) no-repeat 100% 100%;
+  behavior: url(backgroundsize.min.htc);
+  background-size: cover;
+}
+/* line 349, ../../src/sass/style.sass */
+.body-wapper .footer .footer-icon a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  cursor: pointer;
+  opacity: 0.01;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=01)";
+  filter: alpha(opacity=1);
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 368, ../../src/sass/style.sass */
+  body .body-wapper .header .header-bar .menu #menuTitle {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 750px) {
+  /* line 374, ../../src/sass/style.sass */
+  body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #a0a0a0;
+  }
+
+  /* line 379, ../../src/sass/style.sass */
+  .body-wapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 0px;
+    max-width: 1280px;
+    height: auto;
+    background-color: #fff;
+  }
+  /* line 387, ../../src/sass/style.sass */
+  .body-wapper .header {
+    position: relative;
+    top: 0;
+    height: 430px;
+    width: 100%;
+    background: url(../images/header-bg.jpg) no-repeat 100% 100%;
+    background-size: 100% auto;
+    overflow: hidden;
+  }
+  /* line 395, ../../src/sass/style.sass */
+  .body-wapper .header .header-bar {
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  /* line 401, ../../src/sass/style.sass */
+  .body-wapper .header .header-bar .logo {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: url(../images/fubon-logo.png) no-repeat;
+    height: 30px;
+    width: 150px;
+    background-size: 150px;
+  }
+  /* line 409, ../../src/sass/style.sass */
+  .body-wapper .header .header-title {
+    position: relative;
+    margin: 0 auto;
+    height: 250px;
+    width: 80%;
+    top: 180px;
+    left: -50px;
+    background: url(../images/pageTitle.png) no-repeat;
+    background-size: 100% auto;
+  }
+  /* line 419, ../../src/sass/style.sass */
+  .body-wapper .wapper {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    height: 1100px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+  }
+  /* line 428, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-paragraph {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 85%;
+  }
+  /* line 434, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-paragraph p.into {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    font-size: 22px;
+    line-height: 35px;
+    color: #4f4f4f;
+  }
+  /* line 441, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 85%;
+    min-width: 0px;
+    height: 650px;
+    max-width: 650px;
+  }
+  /* line 450, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #cccccc), color-stop(100%, #eeeeee));
+    background: -moz-linear-gradient(bottom, #cccccc, #eeeeee);
+    background: -webkit-linear-gradient(bottom, #cccccc, #eeeeee);
+    background: linear-gradient(to top, #cccccc, #eeeeee);
+  }
+  /* line 456, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-title-bar {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #2c5184;
+  }
+  /* line 463, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-title-bar h2 {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    font-size: 21px;
+    color: #fff;
+  }
+  /* line 469, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer {
+    z-index: 1;
+    top: -10%;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+  }
+  /* line 475, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-Lecturer-para {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    line-height: 25px;
+    color: #2c5184;
+  }
+  /* line 481, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    color: #2c5184;
+    text-decoration: none;
+  }
+  /* line 487, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -15px;
+    height: 0;
+    width: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #2c5184;
+  }
+  /* line 497, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name {
+    position: absolute;
+    width: 101%;
+    height: 70px;
+    bottom: 0;
+  }
+  /* line 502, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .brief-title {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color: #4f4f4f;
+    font-size: 13px;
+  }
+  /* line 508, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .job-title {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 18px;
+    color: #4f4f4f;
+  }
+  /* line 514, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 {
+    left: 0px;
+  }
+  /* line 516, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 {
+    background: url(../images/Lecturer_1.png) no-repeat 125% 130%;
+    background-size: 170px;
+  }
+  /* line 519, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 .into-name-1 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_1.png) no-repeat 63% 83%;
+  }
+  /* line 521, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 {
+    right: 0px;
+  }
+  /* line 523, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 {
+    background: url(../images/Lecturer_2.png) no-repeat 125% 130%;
+    background-size: 170px;
+  }
+  /* line 526, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 .into-name-2 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_2.png) no-repeat 50% 88%;
+  }
+  /* line 528, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 {
+    left: 0px;
+    bottom: 0px;
+  }
+  /* line 531, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 {
+    background: url(../images/Lecturer_3.png) no-repeat 125% 130%;
+    background-size: 170px;
+  }
+  /* line 534, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 .into-name-3 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_3.png) no-repeat 60% 83%;
+  }
+  /* line 536, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 {
+    right: 0px;
+    bottom: 0px;
+  }
+  /* line 539, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 {
+    background: url(../images/Lecturer_4.png) no-repeat 125% 130%;
+    background-size: 170px;
+  }
+  /* line 542, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 .into-name-4 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_4.png) no-repeat 67% 87%;
+  }
+  /* line 544, ../../src/sass/style.sass */
+  .body-wapper .wapper .IC-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 85px;
+    color: #000;
+    cursor: pointer;
+  }
+  /* line 550, ../../src/sass/style.sass */
+  .body-wapper .wapper .IC-icon:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -32px;
+    height: 25px;
+    width: 25px;
+  }
+  /* line 557, ../../src/sass/style.sass */
+  .body-wapper .icinfo {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    background: #999 url(../images/footer-bg.png);
+    background-size: cover;
+    padding: 30px 0;
+  }
+  /* line 568, ../../src/sass/style.sass */
+  .body-wapper .icinfo .ic-full-info {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f9f9f9;
+  }
+  /* line 576, ../../src/sass/style.sass */
+  .body-wapper .icinfo .ic-full-info h3 {
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  /* line 579, ../../src/sass/style.sass */
+  .body-wapper .footer {
+    z-index: 100;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background: url(../images/footer.png) no-repeat 100% 100%;
+    background-size: cover;
+  }
+  /* line 587, ../../src/sass/style.sass */
+  .body-wapper .footer:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 50px;
+    height: 20px;
+    width: 220px;
+    background: url(../images/Reserved-text.png) no-repeat;
+  }
+  /* line 595, ../../src/sass/style.sass */
+  .body-wapper .footer .footer-icon {
+    position: absolute;
+    left: 25px;
+    top: 30%;
+    height: 20px;
+    width: 75px;
+    background: url(../images/fubon-logo.png) no-repeat 100% 100%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 607, ../../src/sass/style.sass */
+  body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #a0a0a0;
+  }
+
+  /* line 612, ../../src/sass/style.sass */
+  .body-wapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 0px;
+    max-width: 1280px;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #fff;
+  }
+  /* line 621, ../../src/sass/style.sass */
+  .body-wapper .header {
+    position: relative;
+    top: 0;
+    height: 350px;
+    width: 100%;
+    background: url(../images/header-bg.jpg) no-repeat 100% 0%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /* line 629, ../../src/sass/style.sass */
+  .body-wapper .header .menubar {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: -310px;
+    height: 350px;
+    width: 300px;
+    background-color: #eee;
+    opacity: 0.9;
+    box-shadow: 0 15px 40px #333;
+  }
+  /* line 639, ../../src/sass/style.sass */
+  .body-wapper .header .menubar a {
+    position: relative;
+    display: inline-block;
+    top: 18%;
+    left: 20%;
+    width: 60%;
+    padding: 0px 0;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #535353;
+  }
+  /* line 652, ../../src/sass/style.sass */
+  .body-wapper .header .header-bar {
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  /* line 658, ../../src/sass/style.sass */
+  .body-wapper .header .header-bar .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: url(../images/fubon-logo.png) no-repeat;
+    height: 20px;
+    width: 100px;
+    background-size: 100px;
+  }
+  /* line 666, ../../src/sass/style.sass */
+  .body-wapper .header .header-title {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 90%;
+    max-width: 450px;
+    top: 150px;
+    left: 0px;
+    background: url(../images/pageTitle2.png) no-repeat;
+    background-size: 120% auto;
+  }
+  /* line 677, ../../src/sass/style.sass */
+  .body-wapper .wapper {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    height: auto;
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+  }
+  /* line 686, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-paragraph {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    width: 85%;
+  }
+  /* line 692, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-paragraph p.into {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    line-height: 35px;
+    color: #4f4f4f;
+  }
+  /* line 699, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 300px;
+    min-width: 0px;
+    height: 1350px;
+  }
+  /* line 707, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #cccccc), color-stop(100%, #eeeeee));
+    background: -moz-linear-gradient(bottom, #cccccc, #eeeeee);
+    background: -webkit-linear-gradient(bottom, #cccccc, #eeeeee);
+    background: linear-gradient(to top, #cccccc, #eeeeee);
+  }
+  /* line 713, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-title-bar {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #2c5184;
+  }
+  /* line 720, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-title-bar h2 {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    font-size: 21px;
+    color: #fff;
+  }
+  /* line 726, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer {
+    z-index: 1;
+    top: -10%;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+  }
+  /* line 732, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-Lecturer-para {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    line-height: 25px;
+    color: #2c5184;
+  }
+  /* line 738, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    color: #2c5184;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  /* line 745, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -15px;
+    height: 0;
+    width: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #2c5184;
+    transition: 0.2s;
+  }
+  /* line 756, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:hover {
+    color: #8193b3;
+  }
+  /* line 758, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .more:hover:after {
+    right: -24px;
+  }
+  /* line 761, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name {
+    position: absolute;
+    width: 101%;
+    height: 70px;
+    left: -0.08px;
+    bottom: 0;
+  }
+  /* line 767, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .brief-title {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color: #4f4f4f;
+    font-size: 13px;
+  }
+  /* line 773, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box .into-Lecturer .into-name .job-title {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 18px;
+    color: #4f4f4f;
+  }
+  /* line 779, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 {
+    left: 0px;
+  }
+  /* line 781, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 {
+    background: url(../images/Lecturer_1.png) no-repeat 125% 130%;
+    background-size: 170px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 785, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-1 .into-Lecturer-1 .into-name-1 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_1.png) no-repeat 63% 85%;
+  }
+  /* line 787, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 {
+    top: 350px;
+    right: 0px;
+  }
+  /* line 790, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 {
+    background: url(../images/Lecturer_2.png) no-repeat 125% 130%;
+    background-size: 170px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 794, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-2 .into-Lecturer-2 .into-name-2 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_2.png) no-repeat 50% 90%;
+  }
+  /* line 796, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 {
+    left: 0px;
+    bottom: 350px;
+  }
+  /* line 799, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 {
+    background: url(../images/Lecturer_3.png) no-repeat 125% 130%;
+    background-size: 170px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 803, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-3 .into-Lecturer-3 .into-name-3 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_3.png) no-repeat 60% 85%;
+  }
+  /* line 805, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 {
+    right: 0px;
+    bottom: 0px;
+  }
+  /* line 808, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 {
+    background: url(../images/Lecturer_4.png) no-repeat 125% 130%;
+    background-size: 170px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 812, ../../src/sass/style.sass */
+  .body-wapper .wapper .into-box-frame .into-box-4 .into-Lecturer-4 .into-name-4 {
+    background: rgba(255, 255, 255, 0.85) url(../images/Lecturer_name_4.png) no-repeat 67% 90%;
+  }
+  /* line 814, ../../src/sass/style.sass */
+  .body-wapper .wapper .IC-icon {
+    position: absolute;
+    bottom: -90px;
+    left: 55px;
+    color: #000;
+    cursor: pointer;
+  }
+  /* line 820, ../../src/sass/style.sass */
+  .body-wapper .wapper .IC-icon:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -32px;
+    height: 25px;
+    width: 25px;
+  }
+  /* line 827, ../../src/sass/style.sass */
+  .body-wapper .icinfo {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    background: #999 url(../images/footer-bg.png);
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+    padding: 30px 0;
+  }
+  /* line 838, ../../src/sass/style.sass */
+  .body-wapper .icinfo .ic-full-info {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f9f9f9;
+  }
+  /* line 846, ../../src/sass/style.sass */
+  .body-wapper .icinfo .ic-full-info article.Contact {
+    font-size: 15px;
+  }
+  /* line 848, ../../src/sass/style.sass */
+  .body-wapper .icinfo .ic-full-info h3 {
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  /* line 851, ../../src/sass/style.sass */
+  .body-wapper .footer {
+    z-index: 100;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 70px;
+    background: url(../images/footer.png) no-repeat 100% 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 860, ../../src/sass/style.sass */
+  .body-wapper .footer:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    height: 20px;
+    width: 180px;
+    background: url(../images/Reserved-text.png) no-repeat;
+    background-size: 160px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 870, ../../src/sass/style.sass */
+  .body-wapper .footer .footer-icon {
+    position: absolute;
+    left: 25px;
+    top: 30%;
+    height: 20px;
+    width: 75px;
+    background: url(../images/fubon-logo.png) no-repeat 100% 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1070 @@
+/* line 6, ../../src/sass/Lecturer.sass */
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 9, ../../src/sass/Lecturer.sass */
+body {
+  font-family: "Microsoft JhengHei", "Noto sans";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+
+/* line 17, ../../src/sass/Lecturer.sass */
+br {
+  margin: 10px 0;
+}
+
+/* line 19, ../../src/sass/Lecturer.sass */
+.body-wapper {
+  position: relative;
+  margin: 0 auto;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-width: 1024px;
+  max-width: 1280px;
+  background: #fff;
+  padding-bottom: 100px;
+}
+/* line 30, ../../src/sass/Lecturer.sass */
+.body-wapper .header {
+  position: relative;
+  top: 0;
+  height: 500px;
+  width: 100%;
+  background: url(../images/header-bg.jpg) no-repeat 100% 100%;
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+  overflow: hidden;
+}
+/* line 39, ../../src/sass/Lecturer.sass */
+.body-wapper .header .menubar {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  right: -310px;
+  height: 100%;
+  width: 300px;
+  background-color: #eee;
+  opacity: 0.9;
+  box-shadow: 0 15px 40px #333;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+/* line 50, ../../src/sass/Lecturer.sass */
+.body-wapper .header .menubar a {
+  z-index: 999;
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  padding: 3px 0;
+  line-height: 80px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #535353;
+}
+/* line 64, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar {
+  position: absolute;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* line 70, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .prebtn {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 27px;
+  right: 65px;
+  height: 30px;
+  width: 70px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+/* line 84, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .prebtn:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -20px;
+  height: 0;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 13px solid #2c5184;
+  transition: 0.2s;
+}
+/* line 95, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .prebtn:hover {
+  color: #8193b3;
+}
+/* line 97, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .prebtn:hover:after {
+  right: -25px;
+}
+/* line 99, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .prebtn:before {
+  content: "";
+  position: absolute;
+  top: -180px;
+  left: -20px;
+  height: 210px;
+  width: 250px;
+}
+/* line 107, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .menu {
+  z-index: 11;
+  position: absolute;
+  top: 28px;
+  right: 25px;
+  height: 28px;
+  width: 28px;
+  background: url(../images/menu_icon.png) no-repeat;
+  background-size: 28px;
+  behavior: url(backgroundsize.min.htc);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* line 119, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .menu #menuTitle {
+  position: absolute;
+  top: 0;
+  line-height: 30px;
+  left: -40px;
+  height: 30px;
+  width: 50px;
+  color: #fff;
+}
+/* line 127, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .logo {
+  z-index: 1000000000;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  background: url(../images/fubon-logo.png) no-repeat;
+  height: 30px;
+  width: 150px;
+  background-size: 100% auto;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 137, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-bar .logo a {
+  z-index: 1000000000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  color: #000;
+  opacity: 0.01;
+  font-size: 18px;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+  filter: alpha(opacity=1);
+  cursor: pointer;
+}
+/* line 151, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 156, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .Lecturer-Pic {
+  position: absolute;
+  right: 5%;
+  bottom: -90px;
+  width: 310px;
+}
+/* line 161, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-title {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  width: 800px;
+  height: 100px;
+  color: #fff;
+}
+/* line 168, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-title h2 {
+  font-size: 70px;
+  line-height: 0px;
+}
+/* line 176, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-title h3 {
+  font-size: 35px;
+  line-height: 45px;
+}
+/* line 181, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para {
+  position: absolute;
+  top: 65%;
+  left: 30px;
+  width: 450px;
+  height: 180px;
+  color: #ddd;
+}
+/* line 189, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .into-title {
+  font-size: 20px;
+}
+/* line 191, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .Lecturer-name {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+}
+/* line 195, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .job-title {
+  position: absolute;
+  top: 39px;
+  left: 75px;
+  font-size: 18px;
+}
+/* line 200, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .education {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  font-size: 15px;
+}
+/* line 205, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .work-experience {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  font-size: 15px;
+}
+/* line 210, ../../src/sass/Lecturer.sass */
+.body-wapper .header .header-title .header-Info-para .work-experience-name {
+  position: absolute;
+  font-size: 15px;
+  top: 106px;
+  left: 75px;
+  line-height: 25px;
+}
+/* line 216, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+/* line 220, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .wapper-outframe {
+  position: relative;
+  margin: 0 auto;
+  height: 90%;
+  width: 85%;
+}
+/* line 225, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .wapper-outframe .Summary {
+  margin-top: 50px;
+  line-height: 30px;
+}
+/* line 228, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .wapper-outframe h2 {
+  position: relative;
+  font-size: 24px;
+  color: #00377a;
+}
+/* line 232, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .wapper-outframe p {
+  position: relative;
+  line-height: 30px;
+  margin-top: 20px;
+}
+/* line 236, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .wapper-outframe .Youtube {
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  height: 400px;
+  width: 600px;
+}
+/* line 243, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .IC-icon {
+  position: absolute;
+  bottom: -90px;
+  left: 85px;
+  color: #000;
+  cursor: pointer;
+}
+/* line 249, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .IC-icon:after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -32px;
+  height: 25px;
+  width: 28px;
+}
+/* line 257, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .IC-icon span#icText2 {
+  font-size: 11px;
+}
+/* line 259, ../../src/sass/Lecturer.sass */
+.body-wapper .wapper .IC-icon img {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: -5px;
+  left: -27px;
+}
+/* line 265, ../../src/sass/Lecturer.sass */
+.body-wapper .icinfo {
+  display: none;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0;
+  top: 120px;
+  height: auto;
+  width: 100%;
+  background: #999 url(../images/footer-bg.png);
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 276, ../../src/sass/Lecturer.sass */
+.body-wapper .icinfo .ic-full-info {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f9f9f9;
+}
+/* line 284, ../../src/sass/Lecturer.sass */
+.body-wapper .icinfo .ic-full-info h3 {
+  margin-top: 40px;
+  line-height: 10px;
+}
+/* line 287, ../../src/sass/Lecturer.sass */
+.body-wapper .footer {
+  z-index: 100;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 70px;
+  background: url(../images/footer.png) no-repeat 100% 100%;
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 296, ../../src/sass/Lecturer.sass */
+.body-wapper .footer:after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 50px;
+  height: 20px;
+  width: 220px;
+  background: url(../images/Reserved-text.png) no-repeat;
+}
+/* line 304, ../../src/sass/Lecturer.sass */
+.body-wapper .footer .footer-icon {
+  position: absolute;
+  left: 25px;
+  top: 40%;
+  height: 20px;
+  width: 75px;
+  background: url(../images/fubon-logo.png) no-repeat 100% 50%;
+  background-size: cover;
+  behavior: url(backgroundsize.min.htc);
+}
+/* line 313, ../../src/sass/Lecturer.sass */
+.body-wapper .footer .footer-icon a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  cursor: pointer;
+  opacity: 0.01;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=01)";
+  filter: alpha(opacity=1);
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 335, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .menu #menuTitle {
+    display: none;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+  /* line 341, ../../src/sass/Lecturer.sass */
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+  }
+  /* line 348, ../../src/sass/Lecturer.sass */
+  body .body-wapper {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    max-width: 1024px;
+    background: #fff;
+    padding-bottom: 100px;
+  }
+  /* line 359, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header {
+    position: relative;
+    top: 0;
+    height: 450px;
+    width: 100%;
+    background: url(../images/header-bg.jpg) no-repeat 0px 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 367, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .menubar {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: -310px;
+    height: 100%;
+    width: 300px;
+    background-color: #eee;
+    opacity: 0.95;
+  }
+  /* line 376, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  /* line 382, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .menu {
+    z-index: 11;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 25px;
+    width: 25px;
+    background: url(../images/menu_icon.png) no-repeat;
+    background-size: 25px;
+    behavior: url(backgroundsize.min.htc);
+    cursor: pointer;
+  }
+  /* line 393, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .logo {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    background: url(../images/fubon-logo.png) no-repeat;
+    height: 30px;
+    width: 100px;
+    background-size: 100% auto;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 402, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 407, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .Lecturer-Pic {
+    position: absolute;
+    right: -20px;
+    bottom: -90px;
+    width: 250px;
+  }
+  /* line 412, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    color: #fff;
+  }
+  /* line 417, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h2 {
+    font-size: 45px;
+    line-height: 10px;
+  }
+  /* line 420, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  /* line 423, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    min-width: 330px;
+    width: auto;
+    height: 100px;
+    color: #eee;
+  }
+  /* line 432, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .into-title {
+    font-size: 15px;
+  }
+  /* line 434, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .Lecturer-name {
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    width: 65px;
+  }
+  /* line 439, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .job-title {
+    position: absolute;
+    top: 28px;
+    left: 65px;
+    font-size: 17px;
+  }
+  /* line 444, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .education {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 13px;
+  }
+  /* line 449, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .work-experience {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 13px;
+  }
+  /* line 454, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .work-experience-name {
+    position: absolute;
+    font-size: 13px;
+    top: 77px;
+    left: 65px;
+    line-height: 20px;
+  }
+  /* line 460, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper {
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: 0;
+  }
+  /* line 465, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe {
+    position: relative;
+    margin: 0 auto;
+    height: 90%;
+    width: 85%;
+  }
+  /* line 470, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe .Summary {
+    margin-top: 50px;
+    line-height: 30px;
+  }
+  /* line 473, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe h2 {
+    margin-top: 50px;
+    position: relative;
+    font-size: 24px;
+    line-height: 35px;
+    color: #00377a;
+  }
+  /* line 479, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe article {
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 483, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe .Youtube {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 489, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .IC-icon {
+    position: absolute;
+    bottom: -90px;
+    left: 65px;
+    color: #000;
+    cursor: pointer;
+  }
+  /* line 495, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .IC-icon:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -32px;
+    height: 25px;
+    width: 25px;
+  }
+  /* line 502, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 30px;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    background: #999 url(../images/footer-bg.png);
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 513, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo .ic-full-info {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f9f9f9;
+  }
+  /* line 521, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo .ic-full-info h3 {
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  /* line 524, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer {
+    z-index: 100;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 70px;
+    background: url(../images/footer.png) no-repeat 0% 0%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 533, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    height: 20px;
+    width: 180px;
+    background: url(../images/Reserved-text.png) no-repeat;
+    background-size: 150px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 543, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer .footer-icon {
+    position: absolute;
+    left: 25px;
+    top: 30%;
+    height: 20px;
+    width: 90px;
+    background: url(../images/fubon-logo.png) no-repeat 100% 50%;
+    background-size: 90px;
+    behavior: url(backgroundsize.min.htc);
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  /* line 553, ../../src/sass/Lecturer.sass */
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+  }
+  /* line 560, ../../src/sass/Lecturer.sass */
+  body .body-wapper {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    max-width: 1024px;
+    background: #fff;
+    padding-bottom: 100px;
+  }
+  /* line 571, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header {
+    position: relative;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    background: url(../images/header-bg.jpg) no-repeat 0px 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 579, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .menubar {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: -310px;
+    height: 100%;
+    width: 300px;
+    background-color: #eee;
+    opacity: 0.95;
+  }
+  /* line 588, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  /* line 594, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .menu {
+    z-index: 11;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+  /* line 602, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .logo {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    background: url(../images/fubon-logo.png) no-repeat;
+    height: 30px;
+    width: 100px;
+    background-size: 100% auto;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 611, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 616, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .Lecturer-Pic {
+    position: absolute;
+    right: 0px;
+    bottom: -90px;
+    width: 300px;
+  }
+  /* line 621, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    color: #fff;
+  }
+  /* line 626, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h2 {
+    font-size: 55px;
+    line-height: 10px;
+  }
+  /* line 629, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 635, ../../src/sass/Lecturer.sass */
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+  }
+  /* line 642, ../../src/sass/Lecturer.sass */
+  body .body-wapper {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: #fff;
+    padding-bottom: 100px;
+  }
+  /* line 653, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header {
+    position: relative;
+    top: 0;
+    height: 380px;
+    width: 100%;
+    background: url(../images/header-bg.jpg) no-repeat 0px 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 662, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .menubar {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: -310px;
+    height: 380px;
+    width: 300px;
+    background-color: #eee;
+    opacity: 0.9;
+    box-shadow: 0 15px 40px #333;
+  }
+  /* line 672, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .menubar a {
+    position: relative;
+    display: inline-block;
+    top: 18%;
+    left: 20%;
+    width: 60%;
+    padding: 0px 0;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #535353;
+  }
+  /* line 684, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  /* line 690, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .menu {
+    z-index: 11;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/menu_icon.png) no-repeat;
+    background-size: 20px;
+    behavior: url(backgroundsize.min.htc);
+    cursor: pointer;
+  }
+  /* line 701, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-bar .logo {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background: url(../images/fubon-logo.png) no-repeat;
+    height: 30px;
+    width: 100px;
+    background-size: 100% auto;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 710, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 715, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .Lecturer-Pic {
+    position: absolute;
+    right: -50px;
+    bottom: -90px;
+    width: 220px;
+  }
+  /* line 720, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    color: #fff;
+  }
+  /* line 725, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h2 {
+    font-size: 24px;
+    line-height: 10px;
+  }
+  /* line 728, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-title h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /* line 731, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para {
+    position: absolute;
+    top: 63%;
+    left: 10px;
+    min-width: 300px;
+    width: auto;
+    height: 100px;
+    color: #eee;
+  }
+  /* line 740, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .into-title {
+    font-size: 13px;
+  }
+  /* line 742, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .Lecturer-name {
+    position: absolute;
+    top: 25px;
+    left: -5px;
+    width: 60px;
+  }
+  /* line 747, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .job-title {
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    font-size: 13px;
+  }
+  /* line 752, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .education {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 13px;
+  }
+  /* line 757, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .work-experience {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 13px;
+  }
+  /* line 762, ../../src/sass/Lecturer.sass */
+  body .body-wapper .header .header-title .header-Info-para .work-experience-name {
+    position: absolute;
+    font-size: 13px;
+    top: 77px;
+    left: 65px;
+    line-height: 20px;
+  }
+  /* line 768, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  /* line 773, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe {
+    position: relative;
+    margin: 0 auto;
+    height: 90%;
+    width: 85%;
+  }
+  /* line 778, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe .Summary {
+    margin-top: 50px;
+    line-height: 30px;
+  }
+  /* line 781, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe h2 {
+    margin-top: 50px;
+    position: relative;
+    font-size: 24px;
+    line-height: 35px;
+    color: #00377a;
+  }
+  /* line 787, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe article {
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 791, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .wapper-outframe .Youtube {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 797, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .IC-icon {
+    position: absolute;
+    bottom: -90px;
+    left: 65px;
+    color: #000;
+    cursor: pointer;
+  }
+  /* line 803, ../../src/sass/Lecturer.sass */
+  body .body-wapper .wapper .IC-icon:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -32px;
+    height: 25px;
+    width: 25px;
+  }
+  /* line 811, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    padding: 30px 0;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    background: #999 url(../images/footer-bg.png);
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 822, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo .ic-full-info {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f9f9f9;
+  }
+  /* line 830, ../../src/sass/Lecturer.sass */
+  body .body-wapper .icinfo .ic-full-info h3 {
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  /* line 833, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer {
+    z-index: 100;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 70px;
+    background: url(../images/footer.png) no-repeat 100% 100%;
+    background-size: cover;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 842, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    height: 20px;
+    width: 180px;
+    background: url(../images/Reserved-text.png) no-repeat;
+    background-size: 150px;
+    behavior: url(backgroundsize.min.htc);
+  }
+  /* line 852, ../../src/sass/Lecturer.sass */
+  body .body-wapper .footer .footer-icon {
+    position: absolute;
+    left: 25px;
+    top: 30%;
+    height: 20px;
+    width: 70px;
+    background: url(../images/fubon-logo.png) no-repeat 100% 50%;
+    background-size: 90px;
+    behavior: url(backgroundsize.min.htc);
+  }
+}
+
+/*# sourceMappingURL=Lecturer.css.map */
